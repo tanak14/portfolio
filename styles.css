@@ -297,14 +297,16 @@ canvas {
   height: 100px !important;
   border-radius: 50%;
 }
-.resumeDownLoadBtn{
+
+.resumeDownLoadBtn {
   width: 200px;
   padding: 5px;
-  background:transparent;
+  background: transparent;
   border: var(--bg-theme-primary);
   color: #fff;
-  border-radius:5px ;
+  border-radius: 5px;
 }
+
 .typewriter p {
   padding: 5px;
   font-size: 18px;
@@ -378,7 +380,7 @@ canvas {
 
 /* .projectItem {
   height: 200px; */
-  /* position: relative; 
+/* position: relative; 
 } */
 
 /* 
@@ -395,18 +397,22 @@ canvas {
 .projectItem {
   height: 200px;
   position: relative;
-  overflow: hidden; /* Ensures the animation is constrained to the card */
+  overflow: hidden;
+  /* Ensures the animation is constrained to the card */
 }
 
 .project-item-link {
   position: absolute;
-  top: -50px; /* Starts above the visible area */
+  top: -50px;
+  /* Starts above the visible area */
   right: 10px;
   opacity: 0;
   transform: translateY(-20px);
   transition: transform 0.5s ease, opacity 0.5s ease;
-  display: none; /* Initially hidden */
+  display: none;
+  /* Initially hidden */
 }
+
 .card {
   background-color: var(--bg-theme-secondary);
   height: 100%;
@@ -507,18 +513,19 @@ canvas {
   background-color: var(--bg-theme-secondary);
 }
 
-.contactForm div  {
+.contactForm div {
   position: relative;
 }
+
 .contactForm div input {
   font-size: 18px;
   width: 100%;
   display: inline-block;
   padding: 15px;
   border-radius: 5px;
-  border:  none;
+  border: none;
   color: var(--text-theme-primary);
-  background-color:   var(--bg-theme-primary);
+  background-color: var(--bg-theme-primary);
   border: 1px solid var(--bg-theme-secondary);
   cursor: pointer;
 }
@@ -529,41 +536,44 @@ canvas {
   padding: 15px;
   width: 100%;
   border-radius: 5px;
-  border:  none;
+  border: none;
   color: var(--text-theme-primary);
-  background-color:   var(--bg-theme-primary);
+  background-color: var(--bg-theme-primary);
   border: 1px solid var(--bg-theme-secondary);
   cursor: pointer;
 }
+
 .contactForm div button {
   display: inline-block;
   padding: 15px;
   width: 100%;
   border-radius: 5px;
-  border:  none;
+  border: none;
   color: var(--text-theme-primary);
-  background-color:   var(--bg-theme-primary);
+  background-color: var(--bg-theme-primary);
   border: 1px solid var(--bg-theme-secondary);
 }
+
 .contactForm div button:hover {
   background: rgb(255, 255, 255);
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.09287464985994398) 0%, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 1) 70%, rgba(255, 255, 255, 0.20772058823529416) 100%);
 }
 
-.connectMessage span{
+.connectMessage span {
   display: inline;
   color: var(--text-theme-secondary);
 
 
 }
-.connectMessage p{
-  font-size:25px;
+
+.connectMessage p {
+  font-size: 25px;
   letter-spacing: 3px;
   text-align: justify;
   color: var(--text-theme-secondary)
-
 }
-.connectMessage button{
+
+.connectMessage button {
   width: 284px;
   font-size: 20px;
   color: var(--text-theme-primary);
@@ -575,11 +585,11 @@ canvas {
   background-color: transparent;
 
 }
-footer{
- 
-}
-footer a{
+
+footer {}
+
+footer a {
   display: inline-block;
-text-decoration: none;
-color: var(--text-theme-secondary)
+  text-decoration: none;
+  color: var(--text-theme-secondary)
 }
